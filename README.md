@@ -4,7 +4,6 @@
 
 ![personal agents](https://img.shields.io/badge/focus-personal_agents-e8804a?style=flat-square)
 ![policy & safety](https://img.shields.io/badge/focus-policy_%C3%97_approval_flows-8fb996?style=flat-square)
-![offline-first](https://img.shields.io/badge/offline--first-planted_ground_truth-5f7189?style=flat-square)
 
 </div>
 
@@ -36,13 +35,6 @@
 ![ruff](https://img.shields.io/badge/ruff-format_%2B_lint-d7ff64?style=flat-square)
 ![GitHub Actions](https://img.shields.io/badge/CI-3.11_%2F_3.12_%2F_3.13-2088ff?style=flat-square&logo=githubactions&logoColor=white)
 
-## 活动
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jialuncai/jialuncai/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jialuncai/jialuncai/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/jialuncai/jialuncai/output/github-snake.svg" />
-</picture>
 
 ## 当前关注
 
