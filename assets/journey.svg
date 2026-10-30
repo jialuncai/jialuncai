@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 348" width="900" height="348" role="img" aria-label="diurnix journey: from event foundation to reproducible daily digests">
+  <defs>
+    <linearGradient id="jbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151d29"/>
+      <stop offset="1" stop-color="#1c2534"/>
+    </linearGradient>
+    <style>
+      .t   { font: 700 20px 'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; fill:#f3ede2; }
+      .tr  { font: 500 13px 'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; fill:#93a3b8; }
+      .st  { font: 600 12.5px 'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; fill:#dce5ef; text-anchor:middle; }
+      .sd  { font: 500 10.5px 'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; fill:#7d8fa6; text-anchor:middle; }
+      .pill{ font: 700 12.5px 'SF Mono',Consolas,monospace; }
+      .conn { fill:none; stroke:#33445c; stroke-width:2; stroke-dasharray:5 7; animation: dash 1.8s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset:-24; } }
+      .node { opacity:0; animation: pop 0.45s ease-out forwards; transform-box: fill-box; transform-origin: center; }
+      @keyframes pop { from { opacity:0; transform: scale(0.4);} to { opacity:1; transform: scale(1);} }
+      .lbl  { opacity:0; animation: fadein 0.5s ease-out forwards; }
+      @keyframes fadein { to { opacity:1; } }
+    </style>
+  </defs>
+  <rect width="900" height="348" rx="14" fill="url(#jbg)"/>
+
+  <text class="t" x="40" y="44">diurnix · 一个仓库的两年旅程</text>
+  <text class="tr" x="40" y="66">Personal Agent 运行时框架 × 生活应用 — 从事件基座到可复现的每日简报</text>
+  <text class="tr" x="860" y="44" text-anchor="end" style="fill:#e8804a">2025.01 — 2026.10</text>
+  <text class="tr" x="860" y="66" text-anchor="end">528 commits · 330 in 2025</text>
+
+  <path class="conn" d="M88,142 H780"/>
+  <path class="conn" d="M800,142 C 838,142 838,240 800,240" style="animation-delay:-0.4s"/>
+  <path class="conn" d="M780,240 H88" style="animation-delay:-0.8s"/>
+
+  <!-- row 1 -->
+  <g>
+    <g class="node" style="animation-delay:0.2s"><circle cx="88" cy="142" r="15" fill="#22303f" stroke="#f2b263" stroke-width="2.5"/><path d="M82,142 h12 M88,136 v12" stroke="#f2b263" stroke-width="2"/></g>
+    <text class="st lbl" x="88" y="108" style="animation-delay:0.3s">事件基座</text>
+    <text class="sd lbl" x="88" y="182" style="animation-delay:0.3s">类型化 · 校验和 JSONL</text>
+
+    <g class="node" style="animation-delay:0.5s"><circle cx="261" cy="142" r="15" fill="#22303f" stroke="#e8804a" stroke-width="2.5"/><circle cx="261" cy="138" r="3.6" fill="#e8804a"/><path d="M254,148 a7,7 0 0 1 14,0" stroke="#e8804a" stroke-width="2" fill="none"/></g>
+    <text class="st lbl" x="261" y="108" style="animation-delay:0.6s">persona 工厂</text>
+    <text class="sd lbl" x="261" y="182" style="animation-delay:0.6s">植入真值 · 种子可复现</text>
+
+    <g class="node" style="animation-delay:0.8s"><circle cx="434" cy="142" r="15" fill="#22303f" stroke="#8fb996" stroke-width="2.5"/><rect x="427" y="136" width="14" height="11" rx="2" fill="none" stroke="#8fb996" stroke-width="2"/></g>
+    <text class="st lbl" x="434" y="108" style="animation-delay:0.9s">工具注册表</text>
+    <text class="sd lbl" x="434" y="182" style="animation-delay:0.9s">schema 校验 · 能力标签</text>
+
+    <g class="node" style="animation-delay:1.1s"><circle cx="607" cy="142" r="15" fill="#22303f" stroke="#7ea6c9" stroke-width="2.5"/><path d="M600,138 l7,-3 l7,3 v5 c0,5 -4,8 -7,9 c-3,-1 -7,-4 -7,-9 z" fill="none" stroke="#7ea6c9" stroke-width="2"/></g>
+    <text class="st lbl" x="607" y="108" style="animation-delay:1.2s">策略引擎</text>
+    <text class="sd lbl" x="607" y="182" style="animation-delay:1.2s">allow/deny/ask · PII 脱敏</text>
+
+    <g class="node" style="animation-delay:1.4s"><circle cx="780" cy="142" r="15" fill="#22303f" stroke="#f2b263" stroke-width="2.5"/><path d="M773,142 a7,7 0 1 1 7,7" stroke="#f2b263" stroke-width="2" fill="none"/><path d="M780,149 l-4,4" stroke="#f2b263" stroke-width="2"/></g>
+    <text class="st lbl" x="780" y="108" style="animation-delay:1.5s">Act 循环</text>
+    <text class="sd lbl" x="780" y="182" style="animation-delay:1.5s">预算硬约束 · 两阶段提交</text>
+  </g>
+
+  <!-- row 2 (right to left) -->
+  <g>
+    <g class="node" style="animation-delay:1.7s"><circle cx="694" cy="240" r="15" fill="#22303f" stroke="#e8804a" stroke-width="2.5"/><path d="M687,240 h6 l2,-5 l3,10 l2,-5 h5" stroke="#e8804a" stroke-width="2" fill="none"/></g>
+    <text class="st lbl" x="694" y="282" style="animation-delay:1.8s">意图路由</text>
+    <text class="sd lbl" x="694" y="210" style="animation-delay:1.8s">NumPy 打分 · torch 可选</text>
+
+    <g class="node" style="animation-delay:2.0s"><circle cx="522" cy="240" r="15" fill="#22303f" stroke="#8fb996" stroke-width="2.5"/><path d="M515,240 a7,7 0 1 0 14,0 a7,7 0 1 0 -14,0 M525,232 l3,-3" stroke="#8fb996" stroke-width="2" fill="none"/></g>
+    <text class="st lbl" x="522" y="282" style="animation-delay:2.1s">确定性重放</text>
+    <text class="sd lbl" x="522" y="210" style="animation-delay:2.1s">字节一致 · 检查点恢复</text>
+
+    <g class="node" style="animation-delay:2.3s"><circle cx="350" cy="240" r="15" fill="#22303f" stroke="#7ea6c9" stroke-width="2.5"/><rect x="343" y="234" width="14" height="4" rx="2" fill="#7ea6c9"/><rect x="343" y="241" width="14" height="4" rx="2" fill="none" stroke="#7ea6c9" stroke-width="1.6"/></g>
+    <text class="st lbl" x="350" y="282" style="animation-delay:2.4s">分级记忆</text>
+    <text class="sd lbl" x="350" y="210" style="animation-delay:2.4s">保留策略 · 隐私层级</text>
+
+    <g class="node" style="animation-delay:2.6s"><circle cx="178" cy="240" r="15" fill="#22303f" stroke="#f2b263" stroke-width="2.5"/><path d="M171,244 l4,-7 l3,5 l5,-8" stroke="#f2b263" stroke-width="2" fill="none"/></g>
+    <text class="st lbl" x="178" y="282" style="animation-delay:2.7s">生活应用 ×4</text>
+    <text class="sd lbl" x="178" y="210" style="animation-delay:2.7s">分诊 · 任务 · 台账 · 习惯</text>
+
+    <g class="node" style="animation-delay:2.9s"><circle cx="88" cy="240" r="15" fill="#22303f" stroke="#e8804a" stroke-width="2.5"/><rect x="81" y="234" width="14" height="12" rx="2" fill="none" stroke="#e8804a" stroke-width="2"/><path d="M84,239 h8 M84,243 h5" stroke="#e8804a" stroke-width="1.6"/></g>
+    <text class="st lbl" x="88" y="282" style="animation-delay:3.0s">bench · 日报</text>
+    <text class="sd lbl" x="88" y="210" style="animation-delay:3.0s">植入真值评分 · HTML/SVG</text>
+  </g>
+
+  <g class="lbl" style="animation-delay:3.3s">
+    <rect x="40" y="306" width="118" height="26" rx="13" fill="#1f2b3a" stroke="#33445c"/><text class="pill" x="99" y="323" fill="#f2b263" text-anchor="middle">528 commits</text>
+    <rect x="170" y="306" width="106" height="26" rx="13" fill="#1f2b3a" stroke="#33445c"/><text class="pill" x="223" y="323" fill="#8fb996" text-anchor="middle">953 tests</text>
+    <rect x="288" y="306" width="118" height="26" rx="13" fill="#1f2b3a" stroke="#33445c"/><text class="pill" x="347" y="323" fill="#e8804a" text-anchor="middle">56 modules</text>
+    <rect x="418" y="306" width="118" height="26" rx="13" fill="#1f2b3a" stroke="#33445c"/><text class="pill" x="477" y="323" fill="#7ea6c9" text-anchor="middle">4 examples</text>
+    <rect x="548" y="306" width="86" height="26" rx="13" fill="#1f2b3a" stroke="#33445c"/><text class="pill" x="591" y="323" fill="#dce5ef" text-anchor="middle">v0.1.1</text>
+    <rect x="646" y="306" width="214" height="26" rx="13" fill="#1f2b3a" stroke="#33445c"/><text class="pill" x="753" y="323" fill="#9fd4a0" text-anchor="middle">逐提交 build·test·format ✓</text>
+  </g>
+</svg>
