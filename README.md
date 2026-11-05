@@ -13,12 +13,12 @@
 
 | 项目 | 研究方向 | 已实现内容 |
 |---|---|---|
-| [diurnix](https://github.com/jialuncai/diurnix) | Personal Agent 运行时框架 × 生活应用 | 类型化事件基座与校验和 JSONL、合成 persona 数据工厂（植入意图/冲突/异常/连续性真值）、工具注册表与策略门控执行器（幂等键/两阶段提交/崩溃恢复）、声明式策略引擎（allow-deny-ask、PII 双向脱敏、不可变决策日志）、预算化感知-计划-行动-观察循环、意图路由（NumPy 打分器 + 可选 torch MLP）、审批流与升级链、字节确定性会话录制/重放、分级记忆（保留策略+隐私层级）、四个生活应用（邮件日程分诊 · GTD 任务规划 · 台账异常检测 · 习惯 streak 代数）、bench 基准与确定性 SVG/HTML 日报、完整 CLI |
+| [diurnix](https://github.com/zhiyongmm/diurnix) | Personal Agent 运行时框架 × 生活应用 | 类型化事件基座与校验和 JSONL、合成 persona 数据工厂（植入意图/冲突/异常/连续性真值）、工具注册表与策略门控执行器（幂等键/两阶段提交/崩溃恢复）、声明式策略引擎（allow-deny-ask、PII 双向脱敏、不可变决策日志）、预算化感知-计划-行动-观察循环、意图路由（NumPy 打分器 + 可选 torch MLP）、审批流与升级链、字节确定性会话录制/重放、分级记忆（保留策略+隐私层级）、四个生活应用（邮件日程分诊 · GTD 任务规划 · 台账异常检测 · 习惯 streak 代数）、bench 基准与确定性 SVG/HTML 日报、完整 CLI |
 
 <div align="center">
 
-[![CI](https://github.com/jialuncai/diurnix/actions/workflows/ci.yml/badge.svg)](https://github.com/jialuncai/diurnix/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/jialuncai/diurnix?style=flat-square&color=e8804a)](https://github.com/jialuncai/diurnix/releases)
+[![CI](https://github.com/zhiyongmm/diurnix/actions/workflows/ci.yml/badge.svg)](https://github.com/zhiyongmm/diurnix/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/zhiyongmm/diurnix?style=flat-square&color=e8804a)](https://github.com/zhiyongmm/diurnix/releases)
 ![commits](https://img.shields.io/badge/commits-528-8fb996?style=flat-square)
 ![tests](https://img.shields.io/badge/tests-953_passed-7ea6c9?style=flat-square)
 
