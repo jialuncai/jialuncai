@@ -32,7 +32,6 @@
   <rect width="900" height="280" rx="14" fill="url(#bg)"/>
 
   <!-- left: identity -->
-  <text class="sub" x="48" y="52">浙江大学 · Zhejiang University</text>
   <g class="type"><text class="name" x="48" y="116">Ma Zhiyong</text></g>
   <rect class="caret" x="352" y="82" width="3" height="40"/>
   <text class="role" x="48" y="150">Personal Agent 框架 × 生活应用</text>
